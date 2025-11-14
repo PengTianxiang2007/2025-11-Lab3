@@ -13,7 +13,7 @@ int main(){
     int n;
     scanf("%d",&n);
 
-    Record records[1000];
+    Record records[1009];
 
     for (int i = 0; i < n; i++) {
         scanf("%s %d %d:%d", records[i].name, &records[i].score, &records[i].hour, &records[i].minute);
@@ -59,5 +59,6 @@ int main(){
         printf("%s\n",records[i].name);
     }
 
+    
     return 0;
 }
